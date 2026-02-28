@@ -21,7 +21,7 @@ public class ex2_2 {
 			System.out.print("Enter rows and cols (>= 5), e.g. \"10 5\": ");
 			if (!sc.hasNextInt()) {
 				sc.next();
-				System.out.println("Invalid input — please enter two integers.");
+				System.out.println("Invalid input - please enter two integers.");
 				continue;
 			}
 			int r = sc.nextInt();
